@@ -1,0 +1,43 @@
+baseURL = 'https://toxumuharu.github.io/TomoharuSecretTravelBag/'
+publishDir = "docs"
+
+DefaultContentLanguage = "ja"
+languageCode = 'ja-jp'
+
+title = 'ともはるのヒミツの旅行かばん'
+theme = 'lightbi-hugo'
+
+[languages]
+  [languages.ja]
+    contentDir = "content/ja"
+  [languages.en] 
+    contentDir = "content/en"
+  
+mainSections = ["post","posts"]
+dateFormat = "2 January 2023"
+comments = false
+readingTime = false
+wordCount = false
+Lastmod = false
+rss = false 
+
+[Author]
+  name = "Tomoharu Kawata"
+  #website = "https://binovarghese.com/"
+  #email = ""
+  #facebook = "username"
+  instagram = "toxumuharu"
+  #youtube = "user/username" # or channel/channelname
+  twitter = "HaruShoots"
+  linkedin = "tomoharu-kawata-44670b15b"
+  github = "toxumuharu"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
